@@ -17,9 +17,8 @@
 
 
 
-#ifndef  __FUNCTION_H_
-#define  __FUNCTION_H_
-
+#ifndef  BROCBUILD_FUNCTION_SRC_FUNCTION_H
+#define  BROCBUILD_FUNCTION_SRC_FUNCTION_H
 
 class function {
     public:
@@ -29,17 +28,4 @@ class function {
 };
 
 
-
-
-
-
-
-
-
-
-
-
-
-#endif  //__FUNCTION_H_
-
-/* vim: set expandtab ts=4 sw=4 sts=4 tw=100: */
+#endif  //BROCBUILD_FUNCTION_SRC_FUNCTION_H
