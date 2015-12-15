@@ -1,5 +1,5 @@
 CONFIGS("brocbuild/configure@master@branch")
 CONFIGS("brocbuild/data@v1.0.1@tag")
 
-STATIC_LIBRARY('ub', Sources(GLOB("src/*.cpp")))
+STATIC_LIBRARY('function', Sources(GLOB("src/*.cpp")))
 
