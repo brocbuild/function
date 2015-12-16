@@ -18,6 +18,8 @@
 
 function::function()
 {
+    myconfigure.set_configure_name("thread_num");
+    myconfigure.set_configure_value("4");
 }
 
 function::~function()
@@ -28,22 +30,3 @@ bool function::is_function()
 {
     return true;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* vim: set expandtab ts=4 sw=4 sts=4 tw=100: */

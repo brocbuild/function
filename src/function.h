@@ -20,11 +20,17 @@
 #ifndef  BROCBUILD_FUNCTION_SRC_FUNCTION_H
 #define  BROCBUILD_FUNCTION_SRC_FUNCTION_H
 
+#include "brocbuild/configure/configure.pb.h"
+#include "brocbuild/data/data.h"
+
 class function {
     public:
         function();
         ~function();
         bool is_function();
+    private:
+        Configure myconfigure;
+        datastruct mydata;
 };
 
 

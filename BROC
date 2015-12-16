@@ -2,6 +2,6 @@
 #coding:utf-8
 
 CONFIGS("brocbuild/configure@master@branch")
-CONFIGS("brocbuild/data@v1.0.1@tag")
+CONFIGS("brocbuild/data@v1.0.3@tag")
 
-STATIC_LIBRARY('function', Sources(GLOB("src/*.cpp")))
+STATIC_LIBRARY('function', Sources(GLOB("src/*.cpp"), Include("/home/users/liruihao/broc/protobuf/include")))
