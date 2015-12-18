@@ -16,10 +16,12 @@
 
 #include "brocbuild/function/src/function.h"
 
-function::function()
+function::function():
+_config(),
+_data()
 {
-    myconfigure.set_configure_name("thread_num");
-    myconfigure.set_configure_value("4");
+    _config.set_configure_name("thread_num");
+    _config.set_configure_value("4");
 }
 
 function::~function()
