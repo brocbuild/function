@@ -29,8 +29,8 @@ class function {
         ~function();
         bool is_function();
     private:
-        Configure myconfigure;
-        datastruct mydata;
+        Configure _config;
+        Data  _data;
 };
 
 
