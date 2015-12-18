@@ -4,4 +4,4 @@
 CONFIGS("brocbuild/configure@master@branch")
 CONFIGS("brocbuild/data@v1.0.3@tag")
 
-STATIC_LIBRARY('function', Sources(GLOB("src/*.cpp"), Include("/home/users/liruihao/broc/protobuf/include")))
+STATIC_LIBRARY('function', Sources(GLOB("src/*.cpp"), Include("/Users/baidu/protobuf/include")))
