@@ -1,7 +1,7 @@
 #edit-mode: -*- python -*-
 #coding:utf-8
-
+import os
 CONFIGS("brocbuild/configure@master@branch")
-CONFIGS("brocbuild/data@v1.0.3@tag")
+CONFIGS("brocbuild/data@v1.0.4@tag")
 
-STATIC_LIBRARY('function', Sources(GLOB("src/*.cpp"), Include("/home/users/liruihao/broc/protobuf/include")))
+STATIC_LIBRARY('function', Sources(GLOB("src/*.cpp"), Include("%s/protobuf/include" % os.environment['HOME'])))
