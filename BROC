@@ -4,4 +4,4 @@ import os
 CONFIGS("brocbuild/configure@master@branch")
 CONFIGS("brocbuild/data@v1.0.4@tag")
 
-STATIC_LIBRARY('function', Sources(GLOB("src/*.cpp"), Include("%s/protobuf/include" % os.environment['HOME'])))
+STATIC_LIBRARY('function', Sources(GLOB("src/*.cpp"), Include("%s/protobuf/include" % os.environ['HOME'])))
